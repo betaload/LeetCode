@@ -3,7 +3,7 @@ package com.squallsun.leetcode;
 /**
  * Created by sunj6 on 2015/2/15.
  */
-public class LongestCommonSubstringN2 {
+public class LongestCommonSubstringN3 {
 
     public static void main(String[] args) {
         String s1 = "abcdefghijk";
