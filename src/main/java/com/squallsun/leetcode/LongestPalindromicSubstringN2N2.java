@@ -1,12 +1,13 @@
 package com.squallsun.leetcode;
 
-/**
- * Created by SJQ on 2015/2/25.
- */
 public class LongestPalindromicSubstringN2N2 {
 
-    public static String longestPalSsubString(String s) {
+    public static String longestPalSubString(String s) {
         int totalLen = s.length();
+        if (totalLen == 0) {
+            return "";
+        }
+
         boolean[][] isPal = new boolean[totalLen][totalLen];
         int maxlength = 1;
         int indexBegin = 0;
@@ -42,8 +43,8 @@ public class LongestPalindromicSubstringN2N2 {
         String s2 = "abacdfgadfghjkllkjhdcaba12321445";
         String s3 = "abacdfgertyuiuytreaba12321445";
 
-        System.out.println(longestPalSsubString(s1));
-        System.out.println(longestPalSsubString(s2));
-        System.out.println(longestPalSsubString(s3));
+        System.out.println(longestPalSubString(s1));
+        System.out.println(longestPalSubString(s2));
+        System.out.println(longestPalSubString(s3));
     }
 }
