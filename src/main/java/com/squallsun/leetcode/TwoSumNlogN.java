@@ -2,9 +2,6 @@ package com.squallsun.leetcode;
 
 import java.util.Arrays;
 
-/**
- * Created by SJQ on 2015/3/1.
- */
 public class TwoSumNlogN {
 
     public int[] twoSum(int[] numbers, int target) {

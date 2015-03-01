@@ -1,8 +1,5 @@
 package com.squallsun.leetcode;
 
-/**
- * Created by SJQ on 2015/3/1.
- */
 public class TwoSumN2 {
 
     public int[] twoSum(int[] numbers, int target) {

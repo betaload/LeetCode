@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Created by sunj6 on 2015/2/15.
- */
 public class SameSubStringN3 {
 
     public static void main(String[] args) {

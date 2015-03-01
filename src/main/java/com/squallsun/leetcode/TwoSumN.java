@@ -4,9 +4,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by SJQ on 2015/3/1.
- */
 public class TwoSumN {
 
     public static int[] twoSum(int[] numbers, int target) {
