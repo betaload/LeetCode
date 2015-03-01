@@ -7,7 +7,7 @@ public class ReverseBit {
 
     public static void reverse(int x) {
 
-        int size = Integer.SIZE;
+        int size = Integer.highestOneBit(x) * 2 - 1;
         for (int i = 0; i< size/2; i++) {
             int j = size - i - 1;
 
@@ -26,8 +26,9 @@ public class ReverseBit {
 
     public static void main(String[] args) {
 
-        reverse(1000000);
+        reverse(1);
 
+        System.out.println(Integer.reverseBytes(1));
 
     }
 }
