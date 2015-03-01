@@ -1,8 +1,6 @@
 package com.squallsun.leetcode;
 
-/**
- * Created by sunj6 on 2015/2/28.
- */
+
 public class RegularExpressionMatchDP {
 
     public static boolean isMatch(String s, String p) {
