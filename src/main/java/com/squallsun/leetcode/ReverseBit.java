@@ -7,8 +7,10 @@ public class ReverseBit {
 
     public static void reverse(int x) {
 
-        int size = Integer.highestOneBit(x) * 2 - 1;
+//        int size = Integer.highestOneBit(x) * 2 - 1;
+        int size = Integer.toBinaryString(x).length();
         for (int i = 0; i< size/2; i++) {
+
             int j = size - i - 1;
 
             int low = (x>>i) & 1;
@@ -24,11 +26,19 @@ public class ReverseBit {
 
     }
 
+
+    public static int sizeOf (int value) {
+        value |= (value >> 1);
+        value |= (value >> 2);
+        value |= (value >> 4);
+        value |= (value >> 8);
+        value |= (value >> 16);
+        return value;
+    }
+
     public static void main(String[] args) {
 
-        reverse(1);
-
-        System.out.println(Integer.reverseBytes(1));
+        reverse(12345);
 
     }
 }
