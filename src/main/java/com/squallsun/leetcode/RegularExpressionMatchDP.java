@@ -26,9 +26,7 @@ public class RegularExpressionMatchDP {
         for (int i = 1; i <= m; i++) {
             for (int j = 1; j <= n; j++) {
                 result[i][j] = ((result[i-1][j-1]) &&  ((s.charAt(i-1) == p.charAt(j-1)) || '.' == p.charAt(j-1)))
-                        ||  ((result[i-1][j] || result[i][j-1])
-                        && (p.charAt(j-1) == '*')
-                        && ((s.charAt(i-1) == p.charAt(j-2)) || '.' == p.charAt(j-2)))
+                        ||  ((result[i-1][j] || result[i][j-1]) && (p.charAt(j-1) == '*') && ((s.charAt(i-1) == p.charAt(j-2)) || '.' == p.charAt(j-2)))
                         ||  ((p.charAt(j-1) == '*') && (j-2 >= 0) && result[i][j-2]);
             }
         }
