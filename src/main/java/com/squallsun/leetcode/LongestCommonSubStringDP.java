@@ -3,6 +3,9 @@ package com.squallsun.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by sunj6 on 2015/2/15.
+ */
 public class LongestCommonSubStringDP {
 
 

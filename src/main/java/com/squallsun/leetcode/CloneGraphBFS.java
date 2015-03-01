@@ -7,6 +7,9 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * Created by sunj6 on 2015/2/11.
+ */
 public class CloneGraphBFS {
 
     private static void copy(HashMap<Character, ArrayList<Character>> graph,char start, HashMap<Character, ArrayList<Character>> copygraph)

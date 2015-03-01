@@ -1,5 +1,8 @@
 package com.squallsun.leetcode;
 
+/**
+ * Created by sunj6 on 2015/2/15.
+ */
 public class LongestCommonSubstringN3 {
 
     public static void main(String[] args) {
