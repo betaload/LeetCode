@@ -4,8 +4,8 @@ public class ReverseBit {
 
     public static void reverse(int x) {
 
-//        int size = Integer.highestOneBit(x) * 2 - 1;
-        int size = Integer.toBinaryString(x).length();
+        int size = Integer.highestOneBit(x) * 2 - 1;
+//        int size = sizeOf(x);
         for (int i = 0; i< size/2; i++) {
 
             int j = size - i - 1;

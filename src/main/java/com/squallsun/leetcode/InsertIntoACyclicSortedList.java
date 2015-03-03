@@ -1,8 +1,5 @@
 package com.squallsun.leetcode;
 
-/**
- * Created by SJQ on 2015/3/1.
- */
 public class InsertIntoACyclicSortedList {
 
 
