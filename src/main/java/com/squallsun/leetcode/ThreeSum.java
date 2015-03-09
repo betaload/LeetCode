@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+
 public class ThreeSum {
 
     public static List<List<Integer>> threeSum(int[] num) {
@@ -63,10 +64,10 @@ public class ThreeSum {
     }
 
     public static void main(String[] args) {
-        int[] a = {-1,0,1,2,-1,-4};
+        int[] a = {-1, 0, 1, 2, -1, -4};
         List<List<Integer>> ab = threeSum(a);
-        for(List<Integer> i: ab) {
-            for (Integer i2: i) {
+        for (List<Integer> i : ab) {
+            for (Integer i2 : i) {
                 System.out.print(i2 + " ");
             }
             System.out.println();
