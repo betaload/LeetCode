@@ -20,6 +20,8 @@ public class LongestCommonSubStringDP {
 
         List<Integer> indecis = new ArrayList<>();
 
+
+
         for(int i = 0; i< s1.length(); i++) {
             for (int j = 0; j< s2.length(); j++) {
                 if(s1.substring(i, i+1).equals(s2.substring(j,j+1))) {
